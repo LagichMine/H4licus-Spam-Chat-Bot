@@ -18,7 +18,7 @@ print("""
                 !!            Remember, This is Only for Funny           !!
                 -----------------------------------------------------------
 """)
-OP = int(input("Did you want to spam? [1 = Yes   |   0 = No] : "))
+OP = int(input("Did you ready to spam? [1 = Yes] : "))
 if OP == 1:
         spam = input("Enter The Word you want to Spam : ")
 dem = int(input("""
@@ -31,3 +31,6 @@ for i in range(dem):
         pyautogui.press("enter")
         time.sleep(0.1)
 print("Spammed" + spam + " " + dem + "Times!")
+
+if OP == 1:
+    exit
