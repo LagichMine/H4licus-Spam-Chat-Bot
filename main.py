@@ -22,7 +22,7 @@ OP = int(input("Did you ready to spam? [1 = Yes] : "))
 if OP == 1:
         spam = input("Enter The Word you want to Spam : ")
 dem = int(input("""
-    Note : In Discord, Make Sure not to go over at 50 Time!
+    ----------------------------------
     How Many Time do you want to Spam : """))
 print("you have 10 second, Place your Cursor on the Chat Box where do you want Type!")
 time.sleep(10)
